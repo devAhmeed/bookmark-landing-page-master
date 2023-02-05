@@ -243,4 +243,11 @@ footer {
   .text-left {
     text-align: center;
   }
+  .icons {
+    text-align: center;
+    margin: 10px 0;
+  }
+  .align {
+    text-align: center;
+  }
 }
