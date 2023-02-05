@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Bookmark landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="mb-5">
+      <div class="container position-relative">
+        <div class="col-lg-12">
+          <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light py-3">
+              <a class="navbar-brand" href="#"
+                ><img src="./images/logo-bookmark.svg"
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">FEATURES </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">PRICING</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">LOGIN</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="row my-5 align-items-center">
+          <div class="col-lg-6 text-left">
+            <h1 id="main-txt">A Simple Bookmark Manager</h1>
+            <p class="main-para text-secondary fs-5">
+              A clean and simple interface to organize your favourite websites.
+              Open a new browser tab and see your sites load instantly. Try it
+              for free.
+            </p>
+            <button class="btn-hero btn-transparent">
+              <a href="/">Get it on Chrome</a>
+            </button>
+            <button class="btn-hero ms-2">
+              <a href="/">Get it on Firefox</a>
+            </button>
+          </div>
+          <div class="col-lg-6 bg">
+            <img src="./images/illustration-hero.svg" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="">
+        <div class="container col-lg-12 mar-25 position-relative">
+          <div class="row justify-content-center text-center">
+            <h4 class="sub-txt fs-1">Features</h4>
+            <p class="w-50 text-secondary fs-5">
+              Our aim is to make it quick and easy for you to access your
+              favourite websites. Your bookmarks sync between your devices so
+              you can access them on the go.
+            </p>
+          </div>
+          <div class="row my-5">
+            <div class="col-lg-6 bg-features">
+              <img
+                src="./images/illustration-features-tab-1.svg"
+                class="img-illustration"
+              />
+            </div>
+            <div class="col-lg-6 text-center">
+              <h4 class="sub-txt fs-3 my-3">Bookmark in one click</h4>
+              <p class="main-para text-secondary fs-6 w-100">
+                Organize your bookmarks however you like. Our simple
+                drag-and-drop interface gives you complete control over how you
+                manage your favourite sites.
+              </p>
+              <button class="btn-hero btn-transparent">
+                <a href="/">Here Info</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container col-lg-12 mar-25">
+          <div class="row justify-content-center text-center">
+            <h4 class="sub-txt fs-3">Download The Extention</h4>
+            <p class="w-50 text-secondary fs-5">
+              We’ve got more browsers in the pipeline. Please do let us know if
+              you’ve got a favourite you’d like us to prioritize.
+            </p>
+          </div>
+          <div class="row justify-content-around">
+            <div class="col-lg-3 card">
+              <img src="./images/logo-chrome.svg" />
+              <h4 class="sub-txt fs-3">Add To Chrome</h4>
+              <p class="text-secondary fs-6 pb-5">Minimum version 46</p>
+              <button class="btn-hero btn-transparent">
+                <a href="/">Add & Install Extention</a>
+              </button>
+            </div>
+            <div class="col-lg-3 card">
+              <img src="./images/logo-firefox.svg" />
+              <h4 class="sub-txt fs-3">Add To Firefox</h4>
+              <p class="text-secondary fs-6 pb-5">Minimum version 55</p>
+              <button class="btn-hero btn-transparent">
+                <a href="/">Add & Install Extention</a>
+              </button>
+            </div>
+            <div class="col-lg-3 card">
+              <img src="./images/logo-opera.svg" />
+              <h4 class="sub-txt fs-3">Add to Opera</h4>
+              <p class="text-secondary fs-6 pb-5">Minimum version 46</p>
+              <button class="btn-hero btn-transparent">
+                <a href="/">Add & Install Extention</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="end mar-25">
+        <div class="container">
+          <div class="row text-center">
+            <p class="para-end">35,000+ ALREADY JOINED</p>
+            <h4 class="fs-2">Stay up-to-date with what we're doing</h4>
+            <form>
+              <input
+                type="email"
+                placeholder="  Enter your email address"
+                class="w-25 py-2"
+              />
+              <button type="submit" class="btn-hero contact">
+                <a href="/">Contact Us</a>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="./images/logo-bookmark.svg" class="footer-img" />
+            <a href="/" class="footer-link">FEATURES</a>
+            <a href="/" class="footer-link">PRICING</a>
+            <a href="/" class="footer-link">CONTACT</a>
+          </div>
+          <div class="col-lg-6 icons">
+            <img src="./images/icon-facebook.svg" />
+            <img src="./images/icon-twitter.svg" />
+          </div>
+        </div>
+        <div class="row" style="color: white; padding-top: 2%">
+          <p class="attribution">
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              >Frontend Mentor</a
+            >. Coded by <a href="https://github.com/devAhmeed">Ahmed Hisham</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
